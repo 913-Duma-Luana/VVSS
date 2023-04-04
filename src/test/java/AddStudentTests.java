@@ -16,9 +16,9 @@ public class AddStudentTests {
 
     @BeforeEach
     void setUp() {
-        String studentXMLUrl = "src\\test\\java\\test-assets\\students-tests.xml";
+        String studentXMLFilePath = "students-tests.xml";
         studentValidator = new StudentValidator();
-        studentXmlRepo = new StudentXMLRepository(studentValidator, studentXMLUrl);
+        studentXmlRepo = new StudentXMLRepository(studentValidator, studentXMLFilePath);
         service = new Service(studentXmlRepo, null, null); // Only StudentXMLRepository is required for these tests
     }
 
