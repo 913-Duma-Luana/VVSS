@@ -9,5 +9,8 @@
         <module name="MaxPointsParticipants" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MaxPointsParticipants" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
