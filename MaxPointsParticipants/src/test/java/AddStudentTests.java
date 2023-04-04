@@ -16,7 +16,7 @@ public class AddStudentTests {
 
     @BeforeEach
     void setUp() {
-        String studentXMLUrl = "E:\\UBB\\MaxPointsParticipants\\src\\test\\java\\test-assets\\students-tests.xml";
+        String studentXMLUrl = "E:\\UBB\\VVSS\\Project\\VVSS\\MaxPointsParticipants\\src\\test\\java\\test-assets\\students-tests.xml";
         studentValidator = new StudentValidator();
         studentXmlRepo = new StudentXMLRepository(studentValidator, studentXMLUrl);
         service = new Service(studentXmlRepo, null, null); // Only StudentXMLRepository is required for these tests
