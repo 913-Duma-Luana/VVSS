@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AddStudentTests" time="0.216" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AddStudentTests" time="0.113" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="E:\Programs\JDKs\jdk 18\bin"/>
-    <property name="sun.java.command" value="C:\Users\Luana\AppData\Local\Temp\surefire17484905799142480571\surefirebooter1601109849938721056.jar C:\Users\Luana\AppData\Local\Temp\surefire17484905799142480571 2023-04-04T22-15-16_702-jvmRun1 surefire10586717480385295166tmp surefire_010047941138322334613tmp"/>
+    <property name="sun.java.command" value="C:\Users\Luana\AppData\Local\Temp\surefire17213557867072619420\surefirebooter12986930342919144161.jar C:\Users\Luana\AppData\Local\Temp\surefire17213557867072619420 2023-04-04T22-50-44_862-jvmRun1 surefire366425981195171657tmp surefire_07527686594451016945tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\UBB\VVSS\Project\VVSS\target\test-classes;E:\UBB\VVSS\Project\VVSS\target\classes;C:\Users\Luana\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Luana\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Luana\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Luana\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Luana\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Luana\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Luana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Luana\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Luana\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Luana\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Luana\AppData\Local\Temp\surefire17484905799142480571\surefirebooter1601109849938721056.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Luana\AppData\Local\Temp\surefire17213557867072619420\surefirebooter12986930342919144161.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18+36-2087"/>
@@ -57,6 +57,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="testSaveStudentDuplicate" classname="AddStudentTests" time="0.176"/>
-  <testcase name="testSaveStudentSuccess" classname="AddStudentTests" time="0.017"/>
+  <testcase name="testSaveStudentDuplicate" classname="AddStudentTests" time="0.097"/>
+  <testcase name="testSaveStudentSuccess" classname="AddStudentTests" time="0.007"/>
 </testsuite>
