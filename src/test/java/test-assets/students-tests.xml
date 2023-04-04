@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <student ID="1">
+        <Nume>John Doe</Nume>
+        <Grupa>933</Grupa>
+    </student>
+    <student ID="2">
+        <Nume>Jane Doe</Nume>
+        <Grupa>933</Grupa>
+    </student>
 </Entitati>
