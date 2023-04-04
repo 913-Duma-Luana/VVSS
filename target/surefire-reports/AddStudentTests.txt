@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: AddStudentTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 s - in AddStudentTests
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.061 s <<< FAILURE! - in AddStudentTests
+testSaveStudentSuccess  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at AddStudentTests.testSaveStudentSuccess(AddStudentTests.java:33)
+

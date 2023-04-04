@@ -6,6 +6,10 @@ import service.Service;
 import validation.StudentValidator;
 import validation.Validator;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.Random;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AddStudentTests {
@@ -13,10 +17,11 @@ public class AddStudentTests {
     private Service service;
     private StudentXMLRepository studentXmlRepo;
     private StudentValidator studentValidator;
+    private String studentXMLFilePath;
 
     @BeforeEach
     void setUp() {
-        String studentXMLFilePath = "students-tests.xml";
+        studentXMLFilePath = "students-tests.xml";
         studentValidator = new StudentValidator();
         studentXmlRepo = new StudentXMLRepository(studentValidator, studentXMLFilePath);
         service = new Service(studentXmlRepo, null, null); // Only StudentXMLRepository is required for these tests
@@ -24,7 +29,10 @@ public class AddStudentTests {
 
     @Test
     void testSaveStudentSuccess() {
-        String id = "1";
+        Random rand = new Random(System.currentTimeMillis());
+        int idRandom = rand.nextInt(1000);
+
+        String id = Integer.toString(idRandom);
         String name = "John Doe";
         int group = 933;
 
