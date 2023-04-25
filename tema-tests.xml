@@ -10,4 +10,14 @@
         <Deadline>6</Deadline>
         <Startline>5</Startline>
     </tema>
+    <tema ID="563">
+        <Descriere>descriere tema</Descriere>
+        <Deadline>2</Deadline>
+        <Startline>1</Startline>
+    </tema>
+    <tema ID="387">
+        <Descriere>descriere tema</Descriere>
+        <Deadline>2</Deadline>
+        <Startline>1</Startline>
+    </tema>
 </Entitati>
