@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entitati>
+    <nota IDStudent="956" IDTema="454">
+        <Nota>1.0</Nota>
+        <SaptamanaPredare>9</SaptamanaPredare>
+        <Feedback>feedback</Feedback>
+    </nota>
+    <nota IDStudent="364" IDTema="548">
+        <Nota>1.0</Nota>
+        <SaptamanaPredare>7</SaptamanaPredare>
+        <Feedback>feedback</Feedback>
+    </nota>
+    <nota IDStudent="108" IDTema="904">
+        <Nota>1.0</Nota>
+        <SaptamanaPredare>5</SaptamanaPredare>
+        <Feedback>feedback</Feedback>
+    </nota>
+    <nota IDStudent="252" IDTema="184">
+        <Nota>1.759054043955952</Nota>
+        <SaptamanaPredare>2</SaptamanaPredare>
+        <Feedback>feedback</Feedback>
+    </nota>
+    <nota IDStudent="96" IDTema="411">
+        <Nota>1.0</Nota>
+        <SaptamanaPredare>5</SaptamanaPredare>
+        <Feedback>feedback</Feedback>
+    </nota>
+    <nota IDStudent="735" IDTema="979">
+        <Nota>7.014677016552083</Nota>
+        <SaptamanaPredare>2</SaptamanaPredare>
+        <Feedback>feedback</Feedback>
+    </nota>
+    <nota IDStudent="724" IDTema="60">
+        <Nota>5.103394000806704</Nota>
+        <SaptamanaPredare>3</SaptamanaPredare>
+        <Feedback>feedback</Feedback>
+    </nota>
+</Entitati>

@@ -28,7 +28,7 @@ public class AddAssignmentTests {
     }
 
     @Test
-    void testSaveTemaSuccess() {
+    public void testSaveTemaSuccess() {
         // test case for a valid Tema
         Random rand = new Random(System.currentTimeMillis());
         int idRandom = rand.nextInt(1000);
