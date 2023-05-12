@@ -1,33 +1,3 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
-    <nota IDStudent="1" IDTema="A1">
-        <Nota>9.0</Nota>
-        <SaptamanaPredare>2</SaptamanaPredare>
-        <Feedback>feedback</Feedback>
-    </nota>
-    <nota IDStudent="0" IDTema="961">
-        <Nota>8.659172351974853</Nota>
-        <SaptamanaPredare>2</SaptamanaPredare>
-        <Feedback>feedback</Feedback>
-    </nota>
-    <nota IDStudent="1" IDTema="idTema">
-        <Nota>9.0</Nota>
-        <SaptamanaPredare>2</SaptamanaPredare>
-        <Feedback>feedback</Feedback>
-    </nota>
-    <nota IDStudent="112" IDTema="A2">
-        <Nota>9.0</Nota>
-        <SaptamanaPredare>2</SaptamanaPredare>
-        <Feedback>Bravo</Feedback>
-    </nota>
-    <nota IDStudent="112" IDTema="A1">
-        <Nota>9.0</Nota>
-        <SaptamanaPredare>2</SaptamanaPredare>
-        <Feedback>Bravo</Feedback>
-    </nota>
-    <nota IDStudent="1" IDTema="id">
-        <Nota>9.0</Nota>
-        <SaptamanaPredare>2</SaptamanaPredare>
-        <Feedback>feedback</Feedback>
-    </nota>
 </Entitati>
