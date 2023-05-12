@@ -2,6 +2,7 @@ import domain.Student;
 import domain.Tema;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
 import repository.NotaXMLRepository;
 import repository.StudentXMLRepository;
 import repository.TemaXMLRepository;
@@ -19,7 +20,7 @@ public class IntegrationTest {
     private TemaXMLRepository assignmentMockRepo;
     private Service mockService;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         // Normal declarations
         TemaXMLRepository assignmentRepository = new TemaXMLRepository(new TemaValidator(), "tema-tests.xml");
