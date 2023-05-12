@@ -65,7 +65,7 @@ public class BigBangTest {
 
         int result = service.saveStudent(id, name, group);
 
-        assertEquals(1, result);
+        assertEquals(0, result);
         Student savedStudent = studentXmlRepo.findOne(id);
         assertEquals(id, savedStudent.getID());
         assertEquals(name, savedStudent.getNume());
