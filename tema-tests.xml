@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
-    <tema ID="55">
-        <Descriere>descriere tema</Descriere>
-        <Deadline>2</Deadline>
-        <Startline>1</Startline>
-    </tema>
-    <tema ID="908">
-        <Descriere>descriere tema</Descriere>
-        <Deadline>2</Deadline>
-        <Startline>1</Startline>
-    </tema>
-    <tema ID="411">
-        <Descriere>descriere tema</Descriere>
-        <Deadline>2</Deadline>
-        <Startline>1</Startline>
-    </tema>
-    <tema ID="227">
-        <Descriere>descriere tema</Descriere>
-        <Deadline>2</Deadline>
-        <Startline>1</Startline>
-    </tema>
-    <tema ID="548">
-        <Descriere>descriere tema</Descriere>
-        <Deadline>2</Deadline>
-        <Startline>1</Startline>
-    </tema>
-    <tema ID="979">
-        <Descriere>descriere tema</Descriere>
-        <Deadline>2</Deadline>
-        <Startline>1</Startline>
-    </tema>
-    <tema ID="904">
-        <Descriere>descriere tema</Descriere>
-        <Deadline>2</Deadline>
-        <Startline>1</Startline>
-    </tema>
-    <tema ID="184">
-        <Descriere>descriere tema</Descriere>
+    <tema ID="A1">
+        <Descriere>descriere</Descriere>
         <Deadline>2</Deadline>
         <Startline>1</Startline>
     </tema>

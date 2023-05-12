@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="MaxPointsParticipants" target="8" />
+      <module name="MaxPointsParticipants" target="10" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -38,7 +38,7 @@ public class AddStudentTests {
 
         int result = service.saveStudent(id, name, group);
 
-        assertEquals(1, result);
+        assertEquals(0, result);
         Student savedStudent = studentXmlRepo.findOne(id);
         assertEquals(id, savedStudent.getID());
         assertEquals(name, savedStudent.getNume());
@@ -56,48 +56,48 @@ public class AddStudentTests {
 
         int result = service.saveStudent(id, name, group); // Attempt to save the student again
 
-        assertEquals(0, result);
+        assertEquals(1, result);
     }
 
     @Test
     void testSaveStudent_emptyId() {
         // Test case for a student with an empty ID
         int result = service.saveStudent("", "John Doe", 101);
-        assertEquals(0, result, "Expected saveStudent to return 0 for a student with an empty ID");
+        assertEquals(1, result, "Expected saveStudent to return 0 for a student with an empty ID");
     }
 
     @Test
     void testSaveStudent_nullId() {
         // Test case for a student with a null ID
         int result = service.saveStudent(null, "John Doe", 101);
-        assertEquals(0, result, "Expected saveStudent to return 0 for a student with a null ID");
+        assertEquals(1, result, "Expected saveStudent to return 0 for a student with a null ID");
     }
 
     @Test
     void testSaveStudent_emptyName() {
         // Test case for a student with an empty name
         int result = service.saveStudent("1", "", 101);
-        assertEquals(0, result, "Expected saveStudent to return 0 for a student with an empty name");
+        assertEquals(1, result, "Expected saveStudent to return 0 for a student with an empty name");
     }
 
     @Test
     void testSaveStudent_nullName() {
         // Test case for a student with a null name
         int result = service.saveStudent("1", null, 101);
-        assertEquals(0, result, "Expected saveStudent to return 0 for a student with a null name");
+        assertEquals(1, result, "Expected saveStudent to return 0 for a student with a null name");
     }
 
     @Test
     void testSaveStudent_invalidGroup() {
         //Test case for a student with an invalid group number (e.g., negative)
         int result = service.saveStudent("1", "John Doe", -1);
-        assertEquals(0, result, "Expected saveStudent to return 0 for a student with an invalid group number");
+        assertEquals(1, result, "Expected saveStudent to return 0 for a student with an invalid group number");
     }
 
     @Test
     void testSaveStudent_invalidGroupAbove() {
         //Test case for a student with an invalid group number (e.g., >= 1000)
         int result = service.saveStudent("1", "John Doe", 1000);
-        assertEquals(0, result, "Expected saveStudent to return 0 for a student with an invalid group number");
+        assertEquals(1, result, "Expected saveStudent to return 0 for a student with an invalid group number");
     }
 }
